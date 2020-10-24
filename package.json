@@ -1,0 +1,41 @@
+{
+  "name": "landing-page",
+  "version": "0.0.1",
+  "description": "reusable landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "build": "webpack -p --config ./webpack.config.js --mode production"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/callbacc/landing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/callbacc/landing-page/issues"
+  },
+  "homepage": "https://github.com/callbacc/landing-page#readme",
+  "dependencies": {
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "@material-ui/core": "^4.11.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "babel-loader": "^8.1.0",
+    "@babel/core": "^7.12.3"
+  }
+}
