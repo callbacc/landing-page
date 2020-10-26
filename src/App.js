@@ -3,14 +3,8 @@ import AppBar from "./Landing/Navigation/AppBar";
 import AppInfo from "./Landing/Content/AppInfo";
 import {
     CssBaseline,
-    Container,
-    Typography,
-    Box,
     createMuiTheme,
-    ThemeProvider,
-    Grid,
-    Button,
-    Link
+    ThemeProvider,  
 } from "@material-ui/core";
 
 function App() {
