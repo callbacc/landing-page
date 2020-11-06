@@ -32,10 +32,17 @@ function App () {
                             <Grid item>
                                 <Button
                                     className={classes.font}
-                                    variant="contained"
                                     color="primary"
                                     href="https://artistify-2.appspot.com"
                                 > Open Artistify in your Browser</Button>
+                            </Grid>
+                            <Grid item>
+                                <Button
+                                    className={classes.font}
+                                    variant="contained"
+                                    color="primary"
+                                    href="./dist/Artistify.rar"
+                                > Download Artistify for Windows</Button>
                             </Grid>
                         </Grid>
                         <Grid sm={6} item>
